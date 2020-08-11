@@ -1,0 +1,28 @@
+{
+"EBI_STG_DBNAME":"dstgni04" ,
+"EBI_STG_HOST":"bidbdev04-dur.corp.netapp.com" ,
+"EBI_STG_PORT":"2012" ,
+"EBI_STG_USERNAME":"ravikss" ,
+"EBI_STG_PASSWORD":"welcome!23" ,
+
+"EBI_EDW_DBNAME":"dedwni04" ,
+"EBI_EDW_HOST":"bidbdev04-dur.corp.netapp.com" ,
+"EBI_EDW_PORT":"2013" ,
+"EBI_EDW_USERNAME":"ravikss" ,
+"EBI_EDW_PASSWORD":"welcome!23" ,
+
+
+"DB_SCHEMA" : "T2_SALES_CHANNEL",
+"LOG_DIR_NAME": "log",
+"DB_PROP_KEY_EXTRACT" : "EBI_EDW",
+"DB_PROP_KEY_LOAD" : "EBI_EDW"
+}
+
+
+
+
+
+
+
+
+

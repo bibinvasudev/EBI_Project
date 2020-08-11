@@ -1,0 +1,9 @@
+JOB START DT : '2018-10-31 05:46:27' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:46:33' | STATUS : [Error] Failed
+JOB START DT : '2018-10-31 05:46:27' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:46:33' | STATUS : 
+ __main__ jb_installed --> Exception-Traceback :: name 'param_v_fiscal_quarter' is not defined
+JOB START DT : '2018-10-31 05:47:59' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:48:06' | STATUS : [Error] Failed
+JOB START DT : '2018-10-31 05:47:59' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:48:06' | STATUS : 
+ __main__ jb_installed --> Exception-Traceback :: name 'param_v_fiscal_quarter' is not defined
+JOB START DT : '2018-10-31 05:48:32' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:48:39' | STATUS : [Error] Failed
+JOB START DT : '2018-10-31 05:48:32' | SCRIPT NAME : SCH1101.SH | JOB : jb_installed | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-31 05:48:39' | STATUS : 
+ __main__ jb_installed --> Exception-Traceback :: ORA-01747: invalid user.table.column, table.column, or column specification

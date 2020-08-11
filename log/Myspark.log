@@ -1,0 +1,244 @@
+[WARN] 2018-11-05 00:14:57,726 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] 2018-11-05 00:14:58,568 org.apache.spark.SparkContext logInfo - Running Spark version 2.3.1
+[INFO] 2018-11-05 00:14:58,595 org.apache.spark.SparkContext logInfo - Submitted application: JB_TEST
+[INFO] 2018-11-05 00:14:58,830 org.apache.spark.SecurityManager logInfo - Changing view acls to: pyspark
+[INFO] 2018-11-05 00:14:58,830 org.apache.spark.SecurityManager logInfo - Changing modify acls to: pyspark
+[INFO] 2018-11-05 00:14:58,831 org.apache.spark.SecurityManager logInfo - Changing view acls groups to: 
+[INFO] 2018-11-05 00:14:58,831 org.apache.spark.SecurityManager logInfo - Changing modify acls groups to: 
+[INFO] 2018-11-05 00:14:58,831 org.apache.spark.SecurityManager logInfo - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(pyspark); groups with view permissions: Set(); users  with modify permissions: Set(pyspark); groups with modify permissions: Set()
+[INFO] 2018-11-05 00:14:59,087 org.apache.spark.util.Utils logInfo - Successfully started service 'sparkDriver' on port 16718.
+[INFO] 2018-11-05 00:14:59,117 org.apache.spark.SparkEnv logInfo - Registering MapOutputTracker
+[INFO] 2018-11-05 00:14:59,141 org.apache.spark.SparkEnv logInfo - Registering BlockManagerMaster
+[INFO] 2018-11-05 00:14:59,144 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2018-11-05 00:14:59,145 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - BlockManagerMasterEndpoint up
+[INFO] 2018-11-05 00:14:59,156 org.apache.spark.storage.DiskBlockManager logInfo - Created local directory at /tmp/blockmgr-bc422229-9d73-4112-845c-044af1a13e11
+[INFO] 2018-11-05 00:14:59,178 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore started with capacity 13.2 GB
+[INFO] 2018-11-05 00:14:59,197 org.apache.spark.SparkEnv logInfo - Registering OutputCommitCoordinator
+[INFO] 2018-11-05 00:14:59,414 org.apache.spark.util.Utils logInfo - Successfully started service 'SparkUI' on port 4040.
+[INFO] 2018-11-05 00:14:59,467 org.apache.spark.ui.SparkUI logInfo - Bound SparkUI to 0.0.0.0, and started at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:14:59,563 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/configs/etl_config.json at file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405699562
+[INFO] 2018-11-05 00:14:59,565 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/configs/etl_config.json to /tmp/spark-70823c4e-d8d2-4ebc-8143-9559d3a6f925/userFiles-44c2d79b-a2ec-4be6-9131-21123b283f7b/etl_config.json
+[INFO] 2018-11-05 00:14:59,579 org.apache.spark.SparkContext logInfo - Added file file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py at file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405699579
+[INFO] 2018-11-05 00:14:59,579 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/jobs/TEST/JB_TEST.py to /tmp/spark-70823c4e-d8d2-4ebc-8143-9559d3a6f925/userFiles-44c2d79b-a2ec-4be6-9131-21123b283f7b/JB_TEST.py
+[INFO] 2018-11-05 00:14:59,584 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/packages.zip at file:///home/spark/EBI_Project/packages.zip with timestamp 1541405699584
+[INFO] 2018-11-05 00:14:59,584 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/packages.zip to /tmp/spark-70823c4e-d8d2-4ebc-8143-9559d3a6f925/userFiles-44c2d79b-a2ec-4be6-9131-21123b283f7b/packages.zip
+[INFO] 2018-11-05 00:14:59,659 org.apache.spark.executor.Executor logInfo - Starting executor ID driver on host localhost
+[INFO] 2018-11-05 00:14:59,682 org.apache.spark.util.Utils logInfo - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 12167.
+[INFO] 2018-11-05 00:14:59,683 org.apache.spark.network.netty.NettyBlockTransferService logInfo - Server created on vmwebietl02-dev:12167
+[INFO] 2018-11-05 00:14:59,685 org.apache.spark.storage.BlockManager logInfo - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2018-11-05 00:14:59,718 org.apache.spark.storage.BlockManagerMaster logInfo - Registering BlockManager BlockManagerId(driver, vmwebietl02-dev, 12167, None)
+[INFO] 2018-11-05 00:14:59,724 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Registering block manager vmwebietl02-dev:12167 with 13.2 GB RAM, BlockManagerId(driver, vmwebietl02-dev, 12167, None)
+[INFO] 2018-11-05 00:14:59,728 org.apache.spark.storage.BlockManagerMaster logInfo - Registered BlockManager BlockManagerId(driver, vmwebietl02-dev, 12167, None)
+[INFO] 2018-11-05 00:14:59,729 org.apache.spark.storage.BlockManager logInfo - Initialized BlockManager: BlockManagerId(driver, vmwebietl02-dev, 12167, None)
+[INFO] 2018-11-05 00:15:00,040 org.apache.spark.sql.internal.SharedState logInfo - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/EBI_Project/spark-warehouse/').
+[INFO] 2018-11-05 00:15:00,041 org.apache.spark.sql.internal.SharedState logInfo - Warehouse path is 'file:/home/spark/EBI_Project/spark-warehouse/'.
+[INFO] 2018-11-05 00:15:00,653 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef logInfo - Registered StateStoreCoordinator endpoint
+[INFO] 2018-11-05 00:15:01,574 org.apache.spark.SparkContext logInfo - Invoking stop() from shutdown hook
+[INFO] 2018-11-05 00:15:01,588 org.apache.spark.ui.SparkUI logInfo - Stopped Spark web UI at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:15:01,608 org.apache.spark.MapOutputTrackerMasterEndpoint logInfo - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2018-11-05 00:15:01,624 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore cleared
+[INFO] 2018-11-05 00:15:01,625 org.apache.spark.storage.BlockManager logInfo - BlockManager stopped
+[INFO] 2018-11-05 00:15:01,638 org.apache.spark.storage.BlockManagerMaster logInfo - BlockManagerMaster stopped
+[INFO] 2018-11-05 00:15:01,644 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint logInfo - OutputCommitCoordinator stopped!
+[INFO] 2018-11-05 00:15:01,660 org.apache.spark.SparkContext logInfo - Successfully stopped SparkContext
+[INFO] 2018-11-05 00:15:01,661 org.apache.spark.util.ShutdownHookManager logInfo - Shutdown hook called
+[INFO] 2018-11-05 00:15:01,663 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-98b06db6-9734-4d29-9653-66f36cca78c5
+[INFO] 2018-11-05 00:15:01,664 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-70823c4e-d8d2-4ebc-8143-9559d3a6f925
+[INFO] 2018-11-05 00:15:01,665 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-70823c4e-d8d2-4ebc-8143-9559d3a6f925/pyspark-269b8758-29b8-4f15-902e-94ea0203617c
+[WARN] 2018-11-05 00:15:49,863 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] 2018-11-05 00:15:50,864 org.apache.spark.SparkContext logInfo - Running Spark version 2.3.1
+[INFO] 2018-11-05 00:15:50,891 org.apache.spark.SparkContext logInfo - Submitted application: JB_TEST
+[INFO] 2018-11-05 00:15:51,128 org.apache.spark.SecurityManager logInfo - Changing view acls to: pyspark
+[INFO] 2018-11-05 00:15:51,128 org.apache.spark.SecurityManager logInfo - Changing modify acls to: pyspark
+[INFO] 2018-11-05 00:15:51,129 org.apache.spark.SecurityManager logInfo - Changing view acls groups to: 
+[INFO] 2018-11-05 00:15:51,129 org.apache.spark.SecurityManager logInfo - Changing modify acls groups to: 
+[INFO] 2018-11-05 00:15:51,137 org.apache.spark.SecurityManager logInfo - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(pyspark); groups with view permissions: Set(); users  with modify permissions: Set(pyspark); groups with modify permissions: Set()
+[INFO] 2018-11-05 00:15:51,345 org.apache.spark.util.Utils logInfo - Successfully started service 'sparkDriver' on port 21008.
+[INFO] 2018-11-05 00:15:51,371 org.apache.spark.SparkEnv logInfo - Registering MapOutputTracker
+[INFO] 2018-11-05 00:15:51,392 org.apache.spark.SparkEnv logInfo - Registering BlockManagerMaster
+[INFO] 2018-11-05 00:15:51,395 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2018-11-05 00:15:51,395 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - BlockManagerMasterEndpoint up
+[INFO] 2018-11-05 00:15:51,405 org.apache.spark.storage.DiskBlockManager logInfo - Created local directory at /tmp/blockmgr-e5268608-8ed5-4498-9195-31d133ac69e6
+[INFO] 2018-11-05 00:15:51,424 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore started with capacity 13.2 GB
+[INFO] 2018-11-05 00:15:51,439 org.apache.spark.SparkEnv logInfo - Registering OutputCommitCoordinator
+[INFO] 2018-11-05 00:15:51,622 org.apache.spark.util.Utils logInfo - Successfully started service 'SparkUI' on port 4040.
+[INFO] 2018-11-05 00:15:51,700 org.apache.spark.ui.SparkUI logInfo - Bound SparkUI to 0.0.0.0, and started at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:15:51,832 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/configs/etl_config.json at file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405751831
+[INFO] 2018-11-05 00:15:51,834 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/configs/etl_config.json to /tmp/spark-533668da-7718-4b18-aeb4-593179a14ee3/userFiles-e84e23aa-617f-41af-899e-dcb9861b4868/etl_config.json
+[INFO] 2018-11-05 00:15:51,850 org.apache.spark.SparkContext logInfo - Added file file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py at file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405751850
+[INFO] 2018-11-05 00:15:51,851 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/jobs/TEST/JB_TEST.py to /tmp/spark-533668da-7718-4b18-aeb4-593179a14ee3/userFiles-e84e23aa-617f-41af-899e-dcb9861b4868/JB_TEST.py
+[INFO] 2018-11-05 00:15:51,857 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/packages.zip at file:///home/spark/EBI_Project/packages.zip with timestamp 1541405751857
+[INFO] 2018-11-05 00:15:51,858 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/packages.zip to /tmp/spark-533668da-7718-4b18-aeb4-593179a14ee3/userFiles-e84e23aa-617f-41af-899e-dcb9861b4868/packages.zip
+[INFO] 2018-11-05 00:15:51,931 org.apache.spark.executor.Executor logInfo - Starting executor ID driver on host localhost
+[INFO] 2018-11-05 00:15:51,959 org.apache.spark.util.Utils logInfo - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 14058.
+[INFO] 2018-11-05 00:15:51,960 org.apache.spark.network.netty.NettyBlockTransferService logInfo - Server created on vmwebietl02-dev:14058
+[INFO] 2018-11-05 00:15:51,962 org.apache.spark.storage.BlockManager logInfo - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2018-11-05 00:15:51,995 org.apache.spark.storage.BlockManagerMaster logInfo - Registering BlockManager BlockManagerId(driver, vmwebietl02-dev, 14058, None)
+[INFO] 2018-11-05 00:15:52,001 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Registering block manager vmwebietl02-dev:14058 with 13.2 GB RAM, BlockManagerId(driver, vmwebietl02-dev, 14058, None)
+[INFO] 2018-11-05 00:15:52,006 org.apache.spark.storage.BlockManagerMaster logInfo - Registered BlockManager BlockManagerId(driver, vmwebietl02-dev, 14058, None)
+[INFO] 2018-11-05 00:15:52,007 org.apache.spark.storage.BlockManager logInfo - Initialized BlockManager: BlockManagerId(driver, vmwebietl02-dev, 14058, None)
+[INFO] 2018-11-05 00:15:52,311 org.apache.spark.sql.internal.SharedState logInfo - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/EBI_Project/spark-warehouse/').
+[INFO] 2018-11-05 00:15:52,311 org.apache.spark.sql.internal.SharedState logInfo - Warehouse path is 'file:/home/spark/EBI_Project/spark-warehouse/'.
+[INFO] 2018-11-05 00:15:52,890 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef logInfo - Registered StateStoreCoordinator endpoint
+[INFO] 2018-11-05 00:15:53,824 org.apache.spark.SparkContext logInfo - Invoking stop() from shutdown hook
+[INFO] 2018-11-05 00:15:53,838 org.apache.spark.ui.SparkUI logInfo - Stopped Spark web UI at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:15:53,852 org.apache.spark.MapOutputTrackerMasterEndpoint logInfo - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2018-11-05 00:15:53,864 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore cleared
+[INFO] 2018-11-05 00:15:53,865 org.apache.spark.storage.BlockManager logInfo - BlockManager stopped
+[INFO] 2018-11-05 00:15:53,878 org.apache.spark.storage.BlockManagerMaster logInfo - BlockManagerMaster stopped
+[INFO] 2018-11-05 00:15:53,883 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint logInfo - OutputCommitCoordinator stopped!
+[INFO] 2018-11-05 00:15:53,894 org.apache.spark.SparkContext logInfo - Successfully stopped SparkContext
+[INFO] 2018-11-05 00:15:53,894 org.apache.spark.util.ShutdownHookManager logInfo - Shutdown hook called
+[INFO] 2018-11-05 00:15:53,895 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-533668da-7718-4b18-aeb4-593179a14ee3/pyspark-2c4c48ed-3793-40d9-ba04-6477fc9e35c6
+[INFO] 2018-11-05 00:15:53,896 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-533668da-7718-4b18-aeb4-593179a14ee3
+[INFO] 2018-11-05 00:15:53,896 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-90473336-e448-41d3-81b6-5f1de908ab97
+[WARN] 2018-11-05 00:16:42,107 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] 2018-11-05 00:16:42,910 org.apache.spark.SparkContext logInfo - Running Spark version 2.3.1
+[INFO] 2018-11-05 00:16:42,938 org.apache.spark.SparkContext logInfo - Submitted application: JB_TEST
+[INFO] 2018-11-05 00:16:43,124 org.apache.spark.SecurityManager logInfo - Changing view acls to: pyspark
+[INFO] 2018-11-05 00:16:43,125 org.apache.spark.SecurityManager logInfo - Changing modify acls to: pyspark
+[INFO] 2018-11-05 00:16:43,125 org.apache.spark.SecurityManager logInfo - Changing view acls groups to: 
+[INFO] 2018-11-05 00:16:43,125 org.apache.spark.SecurityManager logInfo - Changing modify acls groups to: 
+[INFO] 2018-11-05 00:16:43,126 org.apache.spark.SecurityManager logInfo - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(pyspark); groups with view permissions: Set(); users  with modify permissions: Set(pyspark); groups with modify permissions: Set()
+[INFO] 2018-11-05 00:16:43,343 org.apache.spark.util.Utils logInfo - Successfully started service 'sparkDriver' on port 12239.
+[INFO] 2018-11-05 00:16:43,369 org.apache.spark.SparkEnv logInfo - Registering MapOutputTracker
+[INFO] 2018-11-05 00:16:43,389 org.apache.spark.SparkEnv logInfo - Registering BlockManagerMaster
+[INFO] 2018-11-05 00:16:43,392 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2018-11-05 00:16:43,393 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - BlockManagerMasterEndpoint up
+[INFO] 2018-11-05 00:16:43,402 org.apache.spark.storage.DiskBlockManager logInfo - Created local directory at /tmp/blockmgr-fc823c92-48db-4727-904e-1f163eac705f
+[INFO] 2018-11-05 00:16:43,421 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore started with capacity 13.2 GB
+[INFO] 2018-11-05 00:16:43,435 org.apache.spark.SparkEnv logInfo - Registering OutputCommitCoordinator
+[INFO] 2018-11-05 00:16:43,619 org.apache.spark.util.Utils logInfo - Successfully started service 'SparkUI' on port 4040.
+[INFO] 2018-11-05 00:16:43,699 org.apache.spark.ui.SparkUI logInfo - Bound SparkUI to 0.0.0.0, and started at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:16:43,828 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/configs/etl_config.json at file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405803827
+[INFO] 2018-11-05 00:16:43,830 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/configs/etl_config.json to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/etl_config.json
+[INFO] 2018-11-05 00:16:43,848 org.apache.spark.SparkContext logInfo - Added file file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py at file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405803848
+[INFO] 2018-11-05 00:16:43,848 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/jobs/TEST/JB_TEST.py to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/JB_TEST.py
+[INFO] 2018-11-05 00:16:43,852 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/packages.zip at file:///home/spark/EBI_Project/packages.zip with timestamp 1541405803852
+[INFO] 2018-11-05 00:16:43,853 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/packages.zip to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/packages.zip
+[INFO] 2018-11-05 00:16:43,927 org.apache.spark.executor.Executor logInfo - Starting executor ID driver on host localhost
+[INFO] 2018-11-05 00:16:43,956 org.apache.spark.util.Utils logInfo - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 27055.
+[INFO] 2018-11-05 00:16:43,957 org.apache.spark.network.netty.NettyBlockTransferService logInfo - Server created on vmwebietl02-dev:27055
+[INFO] 2018-11-05 00:16:43,959 org.apache.spark.storage.BlockManager logInfo - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2018-11-05 00:16:43,995 org.apache.spark.storage.BlockManagerMaster logInfo - Registering BlockManager BlockManagerId(driver, vmwebietl02-dev, 27055, None)
+[INFO] 2018-11-05 00:16:44,001 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Registering block manager vmwebietl02-dev:27055 with 13.2 GB RAM, BlockManagerId(driver, vmwebietl02-dev, 27055, None)
+[INFO] 2018-11-05 00:16:44,005 org.apache.spark.storage.BlockManagerMaster logInfo - Registered BlockManager BlockManagerId(driver, vmwebietl02-dev, 27055, None)
+[INFO] 2018-11-05 00:16:44,006 org.apache.spark.storage.BlockManager logInfo - Initialized BlockManager: BlockManagerId(driver, vmwebietl02-dev, 27055, None)
+[INFO] 2018-11-05 00:16:44,326 org.apache.spark.sql.internal.SharedState logInfo - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/EBI_Project/spark-warehouse/').
+[INFO] 2018-11-05 00:16:44,327 org.apache.spark.sql.internal.SharedState logInfo - Warehouse path is 'file:/home/spark/EBI_Project/spark-warehouse/'.
+[INFO] 2018-11-05 00:16:44,871 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef logInfo - Registered StateStoreCoordinator endpoint
+[INFO] 2018-11-05 00:16:48,126 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator logInfo - Code generated in 252.789022 ms
+[INFO] 2018-11-05 00:16:48,286 org.apache.spark.SparkContext logInfo - Starting job: collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406
+[INFO] 2018-11-05 00:16:48,310 org.apache.spark.scheduler.DAGScheduler logInfo - Got job 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) with 1 output partitions
+[INFO] 2018-11-05 00:16:48,310 org.apache.spark.scheduler.DAGScheduler logInfo - Final stage: ResultStage 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406)
+[INFO] 2018-11-05 00:16:48,311 org.apache.spark.scheduler.DAGScheduler logInfo - Parents of final stage: List()
+[INFO] 2018-11-05 00:16:48,313 org.apache.spark.scheduler.DAGScheduler logInfo - Missing parents: List()
+[INFO] 2018-11-05 00:16:48,327 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting ResultStage 0 (PythonRDD[4] at collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406), which has no missing parents
+[INFO] 2018-11-05 00:16:48,410 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0 stored as values in memory (estimated size 10.2 KB, free 13.2 GB)
+[INFO] 2018-11-05 00:16:48,453 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.7 KB, free 13.2 GB)
+[INFO] 2018-11-05 00:16:48,457 org.apache.spark.storage.BlockManagerInfo logInfo - Added broadcast_0_piece0 in memory on vmwebietl02-dev:27055 (size: 5.7 KB, free: 13.2 GB)
+[INFO] 2018-11-05 00:16:48,460 org.apache.spark.SparkContext logInfo - Created broadcast 0 from broadcast at DAGScheduler.scala:1039
+[INFO] 2018-11-05 00:16:48,474 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting 1 missing tasks from ResultStage 0 (PythonRDD[4] at collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) (first 15 tasks are for partitions Vector(0))
+[INFO] 2018-11-05 00:16:48,475 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Adding task set 0.0 with 1 tasks
+[INFO] 2018-11-05 00:16:48,518 org.apache.spark.scheduler.TaskSetManager logInfo - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7677 bytes)
+[INFO] 2018-11-05 00:16:48,529 org.apache.spark.executor.Executor logInfo - Running task 0.0 in stage 0.0 (TID 0)
+[INFO] 2018-11-05 00:16:48,534 org.apache.spark.executor.Executor logInfo - Fetching file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405803827
+[INFO] 2018-11-05 00:16:48,565 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/configs/etl_config.json has been previously copied to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/etl_config.json
+[INFO] 2018-11-05 00:16:48,571 org.apache.spark.executor.Executor logInfo - Fetching file:///home/spark/EBI_Project/packages.zip with timestamp 1541405803852
+[INFO] 2018-11-05 00:16:48,573 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/packages.zip has been previously copied to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/packages.zip
+[INFO] 2018-11-05 00:16:48,580 org.apache.spark.executor.Executor logInfo - Fetching file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405803848
+[INFO] 2018-11-05 00:16:48,581 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/jobs/TEST/JB_TEST.py has been previously copied to /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/userFiles-b52d7c55-1524-47d2-ae2e-b036ef77af07/JB_TEST.py
+[INFO] 2018-11-05 00:16:49,191 org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD logInfo - closed connection
+[INFO] 2018-11-05 00:16:49,233 org.apache.spark.api.python.PythonRunner logInfo - Times: total = 450, boot = 389, init = 61, finish = 0
+[INFO] 2018-11-05 00:16:49,255 org.apache.spark.executor.Executor logInfo - Finished task 0.0 in stage 0.0 (TID 0). 1704 bytes result sent to driver
+[INFO] 2018-11-05 00:16:49,272 org.apache.spark.scheduler.TaskSetManager logInfo - Finished task 0.0 in stage 0.0 (TID 0) in 765 ms on localhost (executor driver) (1/1)
+[INFO] 2018-11-05 00:16:49,276 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO] 2018-11-05 00:16:49,287 org.apache.spark.scheduler.DAGScheduler logInfo - ResultStage 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) finished in 0.932 s
+[INFO] 2018-11-05 00:16:49,293 org.apache.spark.scheduler.DAGScheduler logInfo - Job 0 finished: collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406, took 1.006244 s
+[INFO] 2018-11-05 00:16:49,337 org.apache.spark.SparkContext logInfo - Invoking stop() from shutdown hook
+[INFO] 2018-11-05 00:16:49,349 org.apache.spark.ui.SparkUI logInfo - Stopped Spark web UI at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:16:49,368 org.apache.spark.MapOutputTrackerMasterEndpoint logInfo - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2018-11-05 00:16:49,383 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore cleared
+[INFO] 2018-11-05 00:16:49,384 org.apache.spark.storage.BlockManager logInfo - BlockManager stopped
+[INFO] 2018-11-05 00:16:49,395 org.apache.spark.storage.BlockManagerMaster logInfo - BlockManagerMaster stopped
+[INFO] 2018-11-05 00:16:49,399 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint logInfo - OutputCommitCoordinator stopped!
+[INFO] 2018-11-05 00:16:49,406 org.apache.spark.SparkContext logInfo - Successfully stopped SparkContext
+[INFO] 2018-11-05 00:16:49,407 org.apache.spark.util.ShutdownHookManager logInfo - Shutdown hook called
+[INFO] 2018-11-05 00:16:49,408 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-f564bcf2-f2d4-4580-aea8-401427d4348e
+[INFO] 2018-11-05 00:16:49,409 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54
+[INFO] 2018-11-05 00:16:49,409 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-456c9348-eb73-41ad-b706-173b8fd61e54/pyspark-1f0c5c0d-a928-4996-ab56-c201a23bd356
+[WARN] 2018-11-05 00:18:05,395 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] 2018-11-05 00:18:06,210 org.apache.spark.SparkContext logInfo - Running Spark version 2.3.1
+[INFO] 2018-11-05 00:18:06,239 org.apache.spark.SparkContext logInfo - Submitted application: JB_TEST
+[INFO] 2018-11-05 00:18:06,443 org.apache.spark.SecurityManager logInfo - Changing view acls to: pyspark
+[INFO] 2018-11-05 00:18:06,443 org.apache.spark.SecurityManager logInfo - Changing modify acls to: pyspark
+[INFO] 2018-11-05 00:18:06,444 org.apache.spark.SecurityManager logInfo - Changing view acls groups to: 
+[INFO] 2018-11-05 00:18:06,444 org.apache.spark.SecurityManager logInfo - Changing modify acls groups to: 
+[INFO] 2018-11-05 00:18:06,444 org.apache.spark.SecurityManager logInfo - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(pyspark); groups with view permissions: Set(); users  with modify permissions: Set(pyspark); groups with modify permissions: Set()
+[INFO] 2018-11-05 00:18:06,653 org.apache.spark.util.Utils logInfo - Successfully started service 'sparkDriver' on port 15217.
+[INFO] 2018-11-05 00:18:06,680 org.apache.spark.SparkEnv logInfo - Registering MapOutputTracker
+[INFO] 2018-11-05 00:18:06,701 org.apache.spark.SparkEnv logInfo - Registering BlockManagerMaster
+[INFO] 2018-11-05 00:18:06,704 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2018-11-05 00:18:06,704 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - BlockManagerMasterEndpoint up
+[INFO] 2018-11-05 00:18:06,714 org.apache.spark.storage.DiskBlockManager logInfo - Created local directory at /tmp/blockmgr-710072e3-9b23-4f81-b289-15e40e2fd797
+[INFO] 2018-11-05 00:18:06,732 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore started with capacity 13.2 GB
+[INFO] 2018-11-05 00:18:06,746 org.apache.spark.SparkEnv logInfo - Registering OutputCommitCoordinator
+[INFO] 2018-11-05 00:18:06,936 org.apache.spark.util.Utils logInfo - Successfully started service 'SparkUI' on port 4040.
+[INFO] 2018-11-05 00:18:06,996 org.apache.spark.ui.SparkUI logInfo - Bound SparkUI to 0.0.0.0, and started at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:18:07,089 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/configs/etl_config.json at file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405887089
+[INFO] 2018-11-05 00:18:07,092 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/configs/etl_config.json to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/etl_config.json
+[INFO] 2018-11-05 00:18:07,105 org.apache.spark.SparkContext logInfo - Added file file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py at file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405887105
+[INFO] 2018-11-05 00:18:07,106 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/jobs/TEST/JB_TEST.py to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/JB_TEST.py
+[INFO] 2018-11-05 00:18:07,110 org.apache.spark.SparkContext logInfo - Added file file:///home/spark/EBI_Project/packages.zip at file:///home/spark/EBI_Project/packages.zip with timestamp 1541405887110
+[INFO] 2018-11-05 00:18:07,110 org.apache.spark.util.Utils logInfo - Copying /home/spark/EBI_Project/packages.zip to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/packages.zip
+[INFO] 2018-11-05 00:18:07,183 org.apache.spark.executor.Executor logInfo - Starting executor ID driver on host localhost
+[INFO] 2018-11-05 00:18:07,208 org.apache.spark.util.Utils logInfo - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 11010.
+[INFO] 2018-11-05 00:18:07,209 org.apache.spark.network.netty.NettyBlockTransferService logInfo - Server created on vmwebietl02-dev:11010
+[INFO] 2018-11-05 00:18:07,211 org.apache.spark.storage.BlockManager logInfo - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2018-11-05 00:18:07,247 org.apache.spark.storage.BlockManagerMaster logInfo - Registering BlockManager BlockManagerId(driver, vmwebietl02-dev, 11010, None)
+[INFO] 2018-11-05 00:18:07,253 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Registering block manager vmwebietl02-dev:11010 with 13.2 GB RAM, BlockManagerId(driver, vmwebietl02-dev, 11010, None)
+[INFO] 2018-11-05 00:18:07,258 org.apache.spark.storage.BlockManagerMaster logInfo - Registered BlockManager BlockManagerId(driver, vmwebietl02-dev, 11010, None)
+[INFO] 2018-11-05 00:18:07,259 org.apache.spark.storage.BlockManager logInfo - Initialized BlockManager: BlockManagerId(driver, vmwebietl02-dev, 11010, None)
+[INFO] 2018-11-05 00:18:07,549 org.apache.spark.sql.internal.SharedState logInfo - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/EBI_Project/spark-warehouse/').
+[INFO] 2018-11-05 00:18:07,550 org.apache.spark.sql.internal.SharedState logInfo - Warehouse path is 'file:/home/spark/EBI_Project/spark-warehouse/'.
+[INFO] 2018-11-05 00:18:08,125 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef logInfo - Registered StateStoreCoordinator endpoint
+[INFO] 2018-11-05 00:18:11,302 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator logInfo - Code generated in 224.124982 ms
+[INFO] 2018-11-05 00:18:11,462 org.apache.spark.SparkContext logInfo - Starting job: collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406
+[INFO] 2018-11-05 00:18:11,488 org.apache.spark.scheduler.DAGScheduler logInfo - Got job 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) with 1 output partitions
+[INFO] 2018-11-05 00:18:11,489 org.apache.spark.scheduler.DAGScheduler logInfo - Final stage: ResultStage 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406)
+[INFO] 2018-11-05 00:18:11,490 org.apache.spark.scheduler.DAGScheduler logInfo - Parents of final stage: List()
+[INFO] 2018-11-05 00:18:11,492 org.apache.spark.scheduler.DAGScheduler logInfo - Missing parents: List()
+[INFO] 2018-11-05 00:18:11,501 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting ResultStage 0 (PythonRDD[4] at collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406), which has no missing parents
+[INFO] 2018-11-05 00:18:11,577 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0 stored as values in memory (estimated size 10.2 KB, free 13.2 GB)
+[INFO] 2018-11-05 00:18:11,613 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.7 KB, free 13.2 GB)
+[INFO] 2018-11-05 00:18:11,618 org.apache.spark.storage.BlockManagerInfo logInfo - Added broadcast_0_piece0 in memory on vmwebietl02-dev:11010 (size: 5.7 KB, free: 13.2 GB)
+[INFO] 2018-11-05 00:18:11,621 org.apache.spark.SparkContext logInfo - Created broadcast 0 from broadcast at DAGScheduler.scala:1039
+[INFO] 2018-11-05 00:18:11,639 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting 1 missing tasks from ResultStage 0 (PythonRDD[4] at collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) (first 15 tasks are for partitions Vector(0))
+[INFO] 2018-11-05 00:18:11,640 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Adding task set 0.0 with 1 tasks
+[INFO] 2018-11-05 00:18:11,690 org.apache.spark.scheduler.TaskSetManager logInfo - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7677 bytes)
+[INFO] 2018-11-05 00:18:11,706 org.apache.spark.executor.Executor logInfo - Running task 0.0 in stage 0.0 (TID 0)
+[INFO] 2018-11-05 00:18:11,713 org.apache.spark.executor.Executor logInfo - Fetching file:///home/spark/EBI_Project/configs/etl_config.json with timestamp 1541405887089
+[INFO] 2018-11-05 00:18:11,747 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/configs/etl_config.json has been previously copied to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/etl_config.json
+[INFO] 2018-11-05 00:18:11,753 org.apache.spark.executor.Executor logInfo - Fetching file:///home/spark/EBI_Project/packages.zip with timestamp 1541405887110
+[INFO] 2018-11-05 00:18:11,755 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/packages.zip has been previously copied to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/packages.zip
+[INFO] 2018-11-05 00:18:11,763 org.apache.spark.executor.Executor logInfo - Fetching file:/home/spark/EBI_Project/jobs/TEST/JB_TEST.py with timestamp 1541405887105
+[INFO] 2018-11-05 00:18:11,764 org.apache.spark.util.Utils logInfo - /home/spark/EBI_Project/jobs/TEST/JB_TEST.py has been previously copied to /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/userFiles-8735992a-ab40-44e5-aabe-202a1a87dde5/JB_TEST.py
+[INFO] 2018-11-05 00:18:12,470 org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD logInfo - closed connection
+[INFO] 2018-11-05 00:18:12,513 org.apache.spark.api.python.PythonRunner logInfo - Times: total = 533, boot = 452, init = 80, finish = 1
+[INFO] 2018-11-05 00:18:12,536 org.apache.spark.executor.Executor logInfo - Finished task 0.0 in stage 0.0 (TID 0). 1661 bytes result sent to driver
+[INFO] 2018-11-05 00:18:12,553 org.apache.spark.scheduler.TaskSetManager logInfo - Finished task 0.0 in stage 0.0 (TID 0) in 877 ms on localhost (executor driver) (1/1)
+[INFO] 2018-11-05 00:18:12,558 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO] 2018-11-05 00:18:12,572 org.apache.spark.scheduler.DAGScheduler logInfo - ResultStage 0 (collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406) finished in 1.048 s
+[INFO] 2018-11-05 00:18:12,579 org.apache.spark.scheduler.DAGScheduler logInfo - Job 0 finished: collect at /home/spark/EBI_Project/packages.zip/dependencies/EbiReadWrite.py:406, took 1.116766 s
+[INFO] 2018-11-05 00:18:12,624 org.apache.spark.SparkContext logInfo - Invoking stop() from shutdown hook
+[INFO] 2018-11-05 00:18:12,639 org.apache.spark.ui.SparkUI logInfo - Stopped Spark web UI at http://vmwebietl02-dev:4040
+[INFO] 2018-11-05 00:18:12,654 org.apache.spark.MapOutputTrackerMasterEndpoint logInfo - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2018-11-05 00:18:12,669 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore cleared
+[INFO] 2018-11-05 00:18:12,670 org.apache.spark.storage.BlockManager logInfo - BlockManager stopped
+[INFO] 2018-11-05 00:18:12,678 org.apache.spark.storage.BlockManagerMaster logInfo - BlockManagerMaster stopped
+[INFO] 2018-11-05 00:18:12,684 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint logInfo - OutputCommitCoordinator stopped!
+[INFO] 2018-11-05 00:18:12,700 org.apache.spark.SparkContext logInfo - Successfully stopped SparkContext
+[INFO] 2018-11-05 00:18:12,701 org.apache.spark.util.ShutdownHookManager logInfo - Shutdown hook called
+[INFO] 2018-11-05 00:18:12,703 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb
+[INFO] 2018-11-05 00:18:12,704 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-32a7e9d2-f195-450d-9d70-26e76ed09fa9
+[INFO] 2018-11-05 00:18:12,704 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-b362c59c-7800-4bb4-bdb9-ff405bffcecb/pyspark-4534d8da-39b4-43b0-aba1-a986d6fd4de1

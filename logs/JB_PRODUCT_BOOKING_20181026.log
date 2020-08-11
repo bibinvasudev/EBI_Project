@@ -1,0 +1,3 @@
+JOB START DT : '2018-10-26 04:56:28' | SCRIPT NAME : SCH1010.py | JOB : JB_PRODUCT_BOOKING | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-26 04:56:30' | STATUS : [Error] Failed
+JOB START DT : '2018-10-26 04:56:28' | SCRIPT NAME : SCH1010.py | JOB : JB_PRODUCT_BOOKING | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-26 04:56:30' | STATUS : 
+ __main__ JB_PRODUCT_BOOKING --> Exception-Traceback :: 'EbiReadWrite' object has no attribute 'get_fiscal_param'

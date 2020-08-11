@@ -1,0 +1,8 @@
+JOB START DT : '2018-10-18 05:37:33' | SCRIPT NAME : SCH1100.py | JOB : JB_STG_INVOICE | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-18 05:37:43' | STATUS : Success
+JOB START DT : '2018-10-18 05:38:38' | SCRIPT NAME : SCH1100.py | JOB : JB_STG_INVOICE | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-18 05:38:48' | STATUS : Success
+JOB START DT : '2018-10-18 07:12:43' | SCRIPT NAME : SCH1100.py | JOB : JB_STG_INVOICE | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-18 07:12:46' | STATUS : 
+ __main__ JB_STG_INVOICE --> Exception-Traceback :: ORA-32034: unsupported use of WITH clause
+JOB START DT : '2018-10-18 07:17:11' | SCRIPT NAME : SCH1100.py | JOB : JB_STG_INVOICE | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-18 07:17:13' | STATUS : 
+ __main__ JB_STG_INVOICE --> Exception-Traceback :: 'list' object has no attribute 'show'
+JOB START DT : '2018-10-18 08:25:18' | SCRIPT NAME : SCH1100.py | JOB : JB_STG_INVOICE | SRC COUNT : 0 | TGT COUNT : 0 | JOB END DT : '2018-10-18 08:25:21' | STATUS : 
+ __main__ JB_STG_INVOICE --> Exception-Traceback :: count() takes exactly one argument (0 given)

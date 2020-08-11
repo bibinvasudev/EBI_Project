@@ -1,0 +1,87 @@
+[WARN] 2018-10-14 23:56:56,537 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[INFO] 2018-10-14 23:56:57,193 org.apache.spark.SparkContext logInfo - Running Spark version 2.3.1
+[INFO] 2018-10-14 23:56:57,220 org.apache.spark.SparkContext logInfo - Submitted application: SCH_JOB
+[INFO] 2018-10-14 23:56:57,288 org.apache.spark.SecurityManager logInfo - Changing view acls to: pyspark
+[INFO] 2018-10-14 23:56:57,289 org.apache.spark.SecurityManager logInfo - Changing modify acls to: pyspark
+[INFO] 2018-10-14 23:56:57,290 org.apache.spark.SecurityManager logInfo - Changing view acls groups to: 
+[INFO] 2018-10-14 23:56:57,290 org.apache.spark.SecurityManager logInfo - Changing modify acls groups to: 
+[INFO] 2018-10-14 23:56:57,290 org.apache.spark.SecurityManager logInfo - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(pyspark); groups with view permissions: Set(); users  with modify permissions: Set(pyspark); groups with modify permissions: Set()
+[INFO] 2018-10-14 23:56:57,608 org.apache.spark.util.Utils logInfo - Successfully started service 'sparkDriver' on port 22506.
+[INFO] 2018-10-14 23:56:57,637 org.apache.spark.SparkEnv logInfo - Registering MapOutputTracker
+[INFO] 2018-10-14 23:56:57,659 org.apache.spark.SparkEnv logInfo - Registering BlockManagerMaster
+[INFO] 2018-10-14 23:56:57,663 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO] 2018-10-14 23:56:57,664 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - BlockManagerMasterEndpoint up
+[INFO] 2018-10-14 23:56:57,675 org.apache.spark.storage.DiskBlockManager logInfo - Created local directory at /tmp/blockmgr-5688579b-5d69-48a5-8287-a7d53d24db64
+[INFO] 2018-10-14 23:56:57,695 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore started with capacity 13.2 GB
+[INFO] 2018-10-14 23:56:57,711 org.apache.spark.SparkEnv logInfo - Registering OutputCommitCoordinator
+[INFO] 2018-10-14 23:56:57,906 org.apache.spark.util.Utils logInfo - Successfully started service 'SparkUI' on port 4040.
+[INFO] 2018-10-14 23:56:57,954 org.apache.spark.ui.SparkUI logInfo - Bound SparkUI to 0.0.0.0, and started at http://vmwebietl02-dev:4040
+[INFO] 2018-10-14 23:56:58,252 org.apache.spark.SparkContext logInfo - Added file file:/home/spark/BP/SCH_job.py at file:/home/spark/BP/SCH_job.py with timestamp 1539586618252
+[INFO] 2018-10-14 23:56:58,254 org.apache.spark.util.Utils logInfo - Copying /home/spark/BP/SCH_job.py to /tmp/spark-622e7745-8761-451b-bbf6-25cc06d997bf/userFiles-5ad0e9fc-d98c-44f4-b760-fbebe482fd33/SCH_job.py
+[INFO] 2018-10-14 23:56:58,329 org.apache.spark.executor.Executor logInfo - Starting executor ID driver on host localhost
+[INFO] 2018-10-14 23:56:58,355 org.apache.spark.util.Utils logInfo - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 12314.
+[INFO] 2018-10-14 23:56:58,357 org.apache.spark.network.netty.NettyBlockTransferService logInfo - Server created on vmwebietl02-dev:12314
+[INFO] 2018-10-14 23:56:58,359 org.apache.spark.storage.BlockManager logInfo - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO] 2018-10-14 23:56:58,395 org.apache.spark.storage.BlockManagerMaster logInfo - Registering BlockManager BlockManagerId(driver, vmwebietl02-dev, 12314, None)
+[INFO] 2018-10-14 23:56:58,402 org.apache.spark.storage.BlockManagerMasterEndpoint logInfo - Registering block manager vmwebietl02-dev:12314 with 13.2 GB RAM, BlockManagerId(driver, vmwebietl02-dev, 12314, None)
+[INFO] 2018-10-14 23:56:58,406 org.apache.spark.storage.BlockManagerMaster logInfo - Registered BlockManager BlockManagerId(driver, vmwebietl02-dev, 12314, None)
+[INFO] 2018-10-14 23:56:58,406 org.apache.spark.storage.BlockManager logInfo - Initialized BlockManager: BlockManagerId(driver, vmwebietl02-dev, 12314, None)
+[INFO] 2018-10-14 23:56:58,708 org.apache.spark.sql.internal.SharedState logInfo - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/spark-warehouse/').
+[INFO] 2018-10-14 23:56:58,709 org.apache.spark.sql.internal.SharedState logInfo - Warehouse path is 'file:/home/spark/spark-warehouse/'.
+[INFO] 2018-10-14 23:56:59,272 org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef logInfo - Registered StateStoreCoordinator endpoint
+[INFO] 2018-10-14 23:57:02,588 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator logInfo - Code generated in 250.788326 ms
+[INFO] 2018-10-14 23:57:02,617 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator logInfo - Code generated in 21.408388 ms
+[INFO] 2018-10-14 23:57:02,771 org.apache.spark.SparkContext logInfo - Starting job: count at NativeMethodAccessorImpl.java:0
+[INFO] 2018-10-14 23:57:02,799 org.apache.spark.scheduler.DAGScheduler logInfo - Registering RDD 2 (count at NativeMethodAccessorImpl.java:0)
+[INFO] 2018-10-14 23:57:02,802 org.apache.spark.scheduler.DAGScheduler logInfo - Got job 0 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[INFO] 2018-10-14 23:57:02,803 org.apache.spark.scheduler.DAGScheduler logInfo - Final stage: ResultStage 1 (count at NativeMethodAccessorImpl.java:0)
+[INFO] 2018-10-14 23:57:02,803 org.apache.spark.scheduler.DAGScheduler logInfo - Parents of final stage: List(ShuffleMapStage 0)
+[INFO] 2018-10-14 23:57:02,805 org.apache.spark.scheduler.DAGScheduler logInfo - Missing parents: List(ShuffleMapStage 0)
+[INFO] 2018-10-14 23:57:02,812 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting ShuffleMapStage 0 (MapPartitionsRDD[2] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[INFO] 2018-10-14 23:57:02,890 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0 stored as values in memory (estimated size 10.8 KB, free 13.2 GB)
+[INFO] 2018-10-14 23:57:02,930 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.6 KB, free 13.2 GB)
+[INFO] 2018-10-14 23:57:02,934 org.apache.spark.storage.BlockManagerInfo logInfo - Added broadcast_0_piece0 in memory on vmwebietl02-dev:12314 (size: 5.6 KB, free: 13.2 GB)
+[INFO] 2018-10-14 23:57:02,937 org.apache.spark.SparkContext logInfo - Created broadcast 0 from broadcast at DAGScheduler.scala:1039
+[INFO] 2018-10-14 23:57:02,952 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[2] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[INFO] 2018-10-14 23:57:02,954 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Adding task set 0.0 with 1 tasks
+[INFO] 2018-10-14 23:57:03,008 org.apache.spark.scheduler.TaskSetManager logInfo - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7666 bytes)
+[INFO] 2018-10-14 23:57:03,021 org.apache.spark.executor.Executor logInfo - Running task 0.0 in stage 0.0 (TID 0)
+[INFO] 2018-10-14 23:57:03,025 org.apache.spark.executor.Executor logInfo - Fetching file:/home/spark/BP/SCH_job.py with timestamp 1539586618252
+[INFO] 2018-10-14 23:57:03,053 org.apache.spark.util.Utils logInfo - /home/spark/BP/SCH_job.py has been previously copied to /tmp/spark-622e7745-8761-451b-bbf6-25cc06d997bf/userFiles-5ad0e9fc-d98c-44f4-b760-fbebe482fd33/SCH_job.py
+[INFO] 2018-10-14 23:57:18,275 org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD logInfo - closed connection
+[INFO] 2018-10-14 23:57:18,323 org.apache.spark.executor.Executor logInfo - Finished task 0.0 in stage 0.0 (TID 0). 1591 bytes result sent to driver
+[INFO] 2018-10-14 23:57:18,344 org.apache.spark.scheduler.TaskSetManager logInfo - Finished task 0.0 in stage 0.0 (TID 0) in 15349 ms on localhost (executor driver) (1/1)
+[INFO] 2018-10-14 23:57:18,349 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO] 2018-10-14 23:57:18,361 org.apache.spark.scheduler.DAGScheduler logInfo - ShuffleMapStage 0 (count at NativeMethodAccessorImpl.java:0) finished in 15.526 s
+[INFO] 2018-10-14 23:57:18,363 org.apache.spark.scheduler.DAGScheduler logInfo - looking for newly runnable stages
+[INFO] 2018-10-14 23:57:18,363 org.apache.spark.scheduler.DAGScheduler logInfo - running: Set()
+[INFO] 2018-10-14 23:57:18,364 org.apache.spark.scheduler.DAGScheduler logInfo - waiting: Set(ResultStage 1)
+[INFO] 2018-10-14 23:57:18,365 org.apache.spark.scheduler.DAGScheduler logInfo - failed: Set()
+[INFO] 2018-10-14 23:57:18,370 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting ResultStage 1 (MapPartitionsRDD[5] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[INFO] 2018-10-14 23:57:18,384 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_1 stored as values in memory (estimated size 7.4 KB, free 13.2 GB)
+[INFO] 2018-10-14 23:57:18,386 org.apache.spark.storage.memory.MemoryStore logInfo - Block broadcast_1_piece0 stored as bytes in memory (estimated size 3.8 KB, free 13.2 GB)
+[INFO] 2018-10-14 23:57:18,388 org.apache.spark.storage.BlockManagerInfo logInfo - Added broadcast_1_piece0 in memory on vmwebietl02-dev:12314 (size: 3.8 KB, free: 13.2 GB)
+[INFO] 2018-10-14 23:57:18,390 org.apache.spark.SparkContext logInfo - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+[INFO] 2018-10-14 23:57:18,392 org.apache.spark.scheduler.DAGScheduler logInfo - Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[INFO] 2018-10-14 23:57:18,393 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Adding task set 1.0 with 1 tasks
+[INFO] 2018-10-14 23:57:18,400 org.apache.spark.scheduler.TaskSetManager logInfo - Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, ANY, 7754 bytes)
+[INFO] 2018-10-14 23:57:18,400 org.apache.spark.executor.Executor logInfo - Running task 0.0 in stage 1.0 (TID 1)
+[INFO] 2018-10-14 23:57:18,427 org.apache.spark.storage.ShuffleBlockFetcherIterator logInfo - Getting 1 non-empty blocks out of 1 blocks
+[INFO] 2018-10-14 23:57:18,430 org.apache.spark.storage.ShuffleBlockFetcherIterator logInfo - Started 0 remote fetches in 10 ms
+[INFO] 2018-10-14 23:57:18,450 org.apache.spark.executor.Executor logInfo - Finished task 0.0 in stage 1.0 (TID 1). 1825 bytes result sent to driver
+[INFO] 2018-10-14 23:57:18,456 org.apache.spark.scheduler.TaskSetManager logInfo - Finished task 0.0 in stage 1.0 (TID 1) in 60 ms on localhost (executor driver) (1/1)
+[INFO] 2018-10-14 23:57:18,457 org.apache.spark.scheduler.TaskSchedulerImpl logInfo - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[INFO] 2018-10-14 23:57:18,459 org.apache.spark.scheduler.DAGScheduler logInfo - ResultStage 1 (count at NativeMethodAccessorImpl.java:0) finished in 0.078 s
+[INFO] 2018-10-14 23:57:18,470 org.apache.spark.scheduler.DAGScheduler logInfo - Job 0 finished: count at NativeMethodAccessorImpl.java:0, took 15.698338 s
+[INFO] 2018-10-14 23:57:18,522 org.apache.spark.SparkContext logInfo - Invoking stop() from shutdown hook
+[INFO] 2018-10-14 23:57:18,537 org.apache.spark.ui.SparkUI logInfo - Stopped Spark web UI at http://vmwebietl02-dev:4040
+[INFO] 2018-10-14 23:57:18,555 org.apache.spark.MapOutputTrackerMasterEndpoint logInfo - MapOutputTrackerMasterEndpoint stopped!
+[INFO] 2018-10-14 23:57:18,577 org.apache.spark.storage.memory.MemoryStore logInfo - MemoryStore cleared
+[INFO] 2018-10-14 23:57:18,578 org.apache.spark.storage.BlockManager logInfo - BlockManager stopped
+[INFO] 2018-10-14 23:57:18,579 org.apache.spark.storage.BlockManagerMaster logInfo - BlockManagerMaster stopped
+[INFO] 2018-10-14 23:57:18,584 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint logInfo - OutputCommitCoordinator stopped!
+[INFO] 2018-10-14 23:57:18,596 org.apache.spark.SparkContext logInfo - Successfully stopped SparkContext
+[INFO] 2018-10-14 23:57:18,597 org.apache.spark.util.ShutdownHookManager logInfo - Shutdown hook called
+[INFO] 2018-10-14 23:57:18,598 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-622e7745-8761-451b-bbf6-25cc06d997bf
+[INFO] 2018-10-14 23:57:18,599 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-e8d90bac-480a-4755-b86f-cafeff212e93
+[INFO] 2018-10-14 23:57:18,600 org.apache.spark.util.ShutdownHookManager logInfo - Deleting directory /tmp/spark-622e7745-8761-451b-bbf6-25cc06d997bf/pyspark-15b4491b-f2fb-47d7-8beb-8bf8acc5c677
